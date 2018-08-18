@@ -4,8 +4,8 @@
         "method": "zip",
         "binary": "pawncc",
         "paths": {
-            "pawnc-(.+)/bin/pawncc": "pawncc",
-            "pawnc-(.+)/lib/libpawnc.dylib": "libpawnc.dylib"
+            "(pawnc-(.+)/)?bin/pawncc": "pawncc",
+            "(pawnc-(.+)/)?lib/libpawnc.dylib": "libpawnc.dylib"
         }
     },
     "linux": {
@@ -13,8 +13,8 @@
         "method": "tgz",
         "binary": "pawncc",
         "paths": {
-            "pawnc-(.+)/bin/pawncc": "pawncc",
-            "pawnc-(.+)/lib/libpawnc.so": "libpawnc.so"
+            "(pawnc-(.+)/)?bin/pawncc": "pawncc",
+            "(pawnc-(.+)/)?lib/libpawnc.so": "libpawnc.so"
         }
     },
     "windows": {
@@ -22,8 +22,8 @@
         "method": "zip",
         "binary": "pawncc.exe",
         "paths": {
-            "pawnc-(.+)/bin/pawnc.dll": "pawnc.dll",
-            "pawnc-(.+)/bin/pawncc.exe": "pawncc.exe"
+            "(pawnc-(.+)/)?bin/pawnc.dll": "pawnc.dll",
+            "(pawnc-(.+)/)?bin/pawncc.exe": "pawncc.exe"
         }
     }
 }
